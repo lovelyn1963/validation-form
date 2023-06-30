@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>valiiation form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1>DCHY'S FASHION SCHOOL</h1>
+        <h5>Enrol:</h5>
+        <form id="form">
+          <div class="form1 form">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Lovelyn Ezenwa" id="contact-name" />
+            <div class="error"></div>
+          </div>
+          <div class="form2 form">
+            <label>Phone no.:</label>
+            <input type="tel" placeholder="+2348101775004" id="phone" />
+            <div class="error"></div>
+          </div>
+          <div class="form3 form">
+            <label for="address">Address:</label>
+            <input
+              type="text"
+              placeholder="No.37 worldbank housing"
+              id="address"
+            />
+            <div class="error"></div>
+          </div>
+          <div class="form4 form">
+            <label for="email">E-mail:</label>
+            <input type="text" placeholder="light@gmail.com" id="mail" />
+            <div class="error"></div>
+          </div>
+          <div class="form" id="form5">
+            <label for="single">Single</label>
+            <input type="radio" name="title" class="status" />
+
+            <label for="married">Married</label>
+            <input type="radio" name="title" class="status" />
+            <div class="error"></div>
+          </div>
+          <div class="btn">
+            <button type="submit" id="submit">APPLY</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
